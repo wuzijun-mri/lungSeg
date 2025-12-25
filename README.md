@@ -47,3 +47,5 @@ python 4-final-seg/test.py --final_model=weights/model-final.pth --data_dir=data
 
 ### Acknowledgements
 
+This repository builds upon ideas and code from multiple open-source projects, including [Pytorch-3D-UNet](https://github.com/wolny/pytorch-3dunet), [MAPSeg](https://github.com/XuzheZ/MAPSeg), [Chan-Vese Active Contour](https://github.com/kevin-keraudren/chanvese), and [DeepLab-V3-Plus](https://github.com/VainF/DeepLabV3Plus-Pytorch). 
+We sincerely thank the respective authors for their valuable open-source contributions.
