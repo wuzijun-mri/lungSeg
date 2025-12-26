@@ -39,7 +39,7 @@ python 4-final-seg/train.py
 python 4-final-seg/test.py
 ```
 
-We also provide a trained model and a 4D MR image from a representative subject (two respiratory phases) for demonstration purposes. To run the demo, use the following command:
+We also provide a trained model and a 4D MR image from a representative subject (two respiratory phases) for demonstration purposes. Please download the model weights and data from [Zenodo](https://zenodo.org/records/18058968). To run the demo, use the following command:
 
 ```bash
 python 4-final-seg/test.py --final_model=YOUR_PATH_TO_FINAL_MODEL --data_dir=YOUR_PATH_TO_TEST_DATA_DIR
